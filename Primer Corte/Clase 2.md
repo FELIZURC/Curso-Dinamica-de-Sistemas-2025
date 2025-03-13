@@ -1,11 +1,97 @@
-# Titulo de la clase 
-El título de cada clase, correspondiente al tema general que se trabaje en clase. Siempre después de cada título de clase, redactar una breve introducción (mínimo un párrafo) que de una mirada general al tema
-## 1. Subtítulos
-Agregue todos los subtítulos que considere necesarios para estructurar el contenido de la clase. Es importante que considere jerarquías de los temas para definir el orden de estos subtítulos. Cada subtítulo debe ir numerado como una sección, de la manera en que lo presenta esta plantilla
+## 2. Segundo dia de clase 
+Recordamos y aprendimos a la descomposicion de fracciones parciales con los 3 casos.
+### 2.1 Descomposicion de fracciones parciales
+> 🔑*Caso 1*: Q(s) tiene raíces reales distintas.
+>
+<center>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{P\left(s\right)}{(s-p_1)\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}">
+<img src="http://www.alciro.org/cgi/tex.cgi?\frac{P\left(s\right)}{(s-p_1)\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}" title="\frac{P\left(s\right)}{(s-p_1)\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}" border="0" />
+</a>
+</center>
 
-## 2. Definiciones
-Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
->🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
+>
+> Entonces,
+>
+<center>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}"><img src="http://www.alciro.org/cgi/tex.cgi?\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}" title="\frac{A}{(s+p_1)}+\frac{B}{(s+p_2)}+...\frac{N}{(s+p_{n)}}" border="0" /></a>
+</center>
+
+> 🔑*Caso 2*:Que N tiene raices reales repetidos.
+<center>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_1)^2}+\dots+\frac{A_k}{(s-p_1)^k}+\frac{A_{k+1}}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}">
+<img src="http://www.alciro.org/cgi/tex.cgi?\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_1)^2}+\dots+\frac{A_k}{(s-p_1)^k}+\frac{A_{k+1}}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}" title="\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_1)^2}+\dots+\frac{A_k}{(s-p_1)^k}+\frac{A_{k+1}}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}" border="0" />
+</a>
+</center>
+
+> 🔑*Caso 3*: Q(s), tiene raices complejas conjugadas.
+<center>
+<a href="http://www.alciro.org/tools/matematicas/editor-ecuaciones.jsp?eq=\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_1)^2}+\dots+\frac{A_k}{(s-p_1)^k}+\frac{A_{k+1}}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}">
+<img src="http://www.alciro.org/cgi/tex.cgi?\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_1)^2}+\dots+\frac{A_k}{(s-p_1)^k}+\frac{A_{k+1}}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}" title="\frac{P\left(s\right)}{(s-p_1)^k\left(s-p_2\right)\dots\left(s-p_n\right)}=\frac{A_1}{(s-p_1)}+\frac{A_2}{(s-p_1)^2}+\dots+\frac{A_k}{(s-p_1)^k}+\frac{A_{k+1}}{(s-p_2)}+\dots+\frac{A_n}{(s-p_n)}" border="0" />
+</a>
+</center>
+
+📚 **Ejercicio 1:** $F=(3s+2)/(s(s+1)*(s-2))$
+
+💡**Código 1:**
+```
+syms s t
+F=(3s+2)/(s(s+1)*(s-2))
+pretty(F)
+f=ilaplace(F)
+
+```
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |       -1         |
+|       B       |       4/3        |
+|       C       |       −1/3       |
+
+
+>> >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_1_github_page-0001.jpg))
+
+** Resultado ejercicio 1 :** (4*exp(2*t))/3 - exp(-t)/3 - 1
+
+📚 **Ejercicio 2:** $F=(s-2)/((2s-1)^2*(s-1))$
+💡**Código 2:**
+```
+syms s t
+F=(s-2)/((2*s-1)^2*(s-1))
+pretty(F)
+f=ilaplace(F)
+
+```
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |        2         |
+|       B       |        3         |
+|       C       |        -1        |
+
+>> >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_2_page-0001.jpg))
+
+** Resultado ejercicio 2 :**exp(t/2) - exp(t) + (3*t*exp(t/2))/4
+
+📚 **Ejercicio 3:** $F=(2s-3)/(s^3+s)$
+```
+syms s t
+F=(2*s-3)/(s^3+s)
+pretty(F)
+f=ilaplace(F)
+
+```
+| **Incógnita** | ** Resultado **  |
+|---------------|------------------|
+|       A       |        3         |
+|       B       |        2         |
+|       C       |        -3        |
+
+>> >![](https://github.com/FELIZURC/Dinamica-de-sistemas/blob/main/Figure_3_page-0001.jpg))
+
+** Resultado ejercicio 3 :** 3*cos(t) + 2*sin(t) - 3
+
+
+
+
+
 
 ## 3. Subsecciones
 Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
